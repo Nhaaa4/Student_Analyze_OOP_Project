@@ -6,4 +6,4 @@ file_path = 'data/student_clean.csv'
 data = laod_data(file_path)
 student_analyze = StudentPerformanceAnalyze(data)
 
-print(student_analyze.df)
+student_analyze.stress_report_vs_final_grade()
