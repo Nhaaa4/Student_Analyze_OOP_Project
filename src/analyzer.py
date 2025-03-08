@@ -56,7 +56,7 @@ class StudentPerformanceVisualize:
         sns.lineplot(x='Final_Grade', y='Attendance_Rate (%)', data=pivot_df, marker="o", color="darkred", linewidth=2)
         plt.show()
 
-    def use_educational_tect_vs_final_grade(self):
+    def use_educational_tech_vs_final_grade(self):
         ax = sns.countplot(data=self.df, x='Final_Grade', hue='Use_of_Educational_Tech', order=['A', 'B', 'C', 'D'])
         plt.title('Visualizing Edtech Students with Final Grade', weight='bold', fontsize=13)
         for container in ax.containers:
@@ -78,7 +78,7 @@ class StudentPerformanceVisualize:
         plt.title("Comparison of Free Time (hours/week) by Grade")
         plt.show()
 
-    def sleep_vs_final_gradea(self):
+    def sleep_vs_final_grade(self):
         sns.displot(self.df, x="Sleep_Hours_per_Night", hue="Final_Grade", kind="kde", hue_order=['A', 'B', 'C', 'D'])
         plt.title("Comparison of Sleep Hours per Night by Grade")
         plt.show()
