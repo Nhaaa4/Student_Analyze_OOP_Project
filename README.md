@@ -30,9 +30,9 @@ After run this code, It will show the.....
 Contributions are welcome!
 To contribute:
 1. Fork the repository
-2. Create a new branch: ```git checkout -b *branch-name*```
-3. Commit changes: ```git commit -m "*message*"```
-4. Push to GitHub: ```git push origin *branch-name*````
+2. Create a new branch: ```git checkout -b branch-name```
+3. Commit changes: ```git commit -m "message"```
+4. Push to GitHub: ```git push origin branch-name```
 5. Submit a pull request.
 
 ## Contact 
