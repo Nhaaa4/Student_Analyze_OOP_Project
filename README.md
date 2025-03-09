@@ -6,8 +6,12 @@ This proposal addresses the final project for the Data Science department at the
 This project is written in **Python**, so ensure you have the **latest version** of Python installed. If you encounter issues with certain libraries, try switching to Python **13.12.7** for compatibility.
 ### Check Python Version
 Verify your Python installation by running:  
-``` python --version```
+```bash 
+python --version
+```
 If needed, download from Python from python.org
 ### Install Required Package
 You need to use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas, seaborn, matplotlib.
-```pip install pandas seaborn matplotlib```
+```bash 
+pip install pandas seaborn matplotlib
+```
