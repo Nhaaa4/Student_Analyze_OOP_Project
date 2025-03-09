@@ -9,7 +9,7 @@ Verify your Python installation by running:
 ```bash 
 python --version
 ```
-If needed, download from Python from [python.org](python.org)
+If needed, download from Python from [python.org](https://www.python.org/downloads/)
 ### Install Required Package
 You need to use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas, seaborn, matplotlib.
 ```bash 
