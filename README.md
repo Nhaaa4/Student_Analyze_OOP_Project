@@ -45,16 +45,16 @@ To contribute:
 5. Submit a pull request.
 
 ## Contact 
-For any question, feel free to reach out:\
+For any question, feel free to reach out:
 - Chheang Sovanpanha\
 :email: panhasovan51@gmail.com\
-:link: [Nhaaa4](https://github.com/Nhaaa4)\
-- Manh Seila
-:email: manhseila@gmail.comcom\
-:link: [SeilaCP](https://github.com/SeilaCP)\
-- Huy Visa
-:email: visadekh@gmail.com\
-:link: [VisaHuy](https://github.com/VisaHuy)\
-- Eng Mengeang
-:email: panhasovan51@gmail.com\
 :link: [Nhaaa4](https://github.com/Nhaaa4)
+- Manh Seila\
+:email: manhseila@gmail.comcom\
+:link: [SeilaCP](https://github.com/SeilaCP)
+- Huy Visa\
+:email: visadekh@gmail.com\
+:link: [VisaHuy](https://github.com/VisaHuy)
+- Eng Mengeang\
+:email: mengeang7899@gmail.com\
+:link: [Nhaaa4](https://github.com/EngMengeang)
