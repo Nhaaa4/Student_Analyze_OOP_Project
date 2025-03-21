@@ -1,0 +1,180 @@
+{
+  "Visual": {
+    "C": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "To improve your grade your should at leat complete your assignment 77.35% - 100%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+    "B": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (65.9-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+    "A": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (83.15-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    }
+  },
+
+  "Auditory": {
+    "C": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (77.93-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+    "B": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (71-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+    "A": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (71-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    }
+  },
+
+  "Kinesthetic": {
+    "C": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (75.05-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+    "B": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (75.30-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+
+    "A": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (77.93%-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    }
+  },
+
+  "Reading/Writing": {
+    "C": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (77.93-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+    "B": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (76.65-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    },
+    "A": {
+      "studyHour": {
+        "smart": "You are a work smart student",
+        "hard": "You are a work hard student"
+      },
+
+      "Assignment_Completion_Rate": {
+        "Bad": "Base on data set. If you want to improve your grade, Focus more on assignment complition (71.64-100)%",
+        "Good": "Good! Keep improving and submit your assignment more regulary."
+      }
+    }
+  },
+
+  "General Suggestion": {
+    "Attendence Rate": {
+      "Low": "base on data set, Your attendence is too low go to this site to improve your attendence (https://www.iitms.co.in/blog/7-most-effective-strategies-to-improve-student-attendance.html)",
+      "High": "Good Job! Keep attending the class regularly"
+    },
+
+    "Self Report Stress Level": {
+      "High": "Sine your stress level is high, You can pactice guided meditation, guided imagery, mindfulness, visualizeation and othe form of meditation anywhere at anytime, because it gives you a sense of calm, peace and balance that can help both your emotional well-being and your overall health.",
+      "Medium": "If your stress level are medium you should connect yourself with others. Social contact is a good stress reliever because it can offer distraction, give support, and help you put up with life's up and downs. So take a coffee break with a friend, email a relative or visit your place of worship",
+      "Low": "Almost any form of physical can act as a stress reliever. Even if your're not an athlete or you're out of shape, exercise can be a good stress reliever.",
+      "Reference": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257"
+    },
+
+    "Participation": {
+      "Yes": "You are on the right path! Keep it up",
+      "No": "Don't keep yourself isolated, Participate with friend can help your performance better."
+    },
+
+    "Free time (hour/week)": {
+      "Less": "Good Time Management! Keep continue manage your time to enhance your performance",
+      "More": "Bad Time Management! Visit this site to improve time management \n\t(https://extension.uga.edu/publications/detail.html?number=C1042&title=time-management-10-strategies-for-better-time-management)"
+    },
+
+    "Sleep Hour Per Night": {
+      "High": "Good Job! Keep getting enough sleep everyday to stay healthy which help to boost your study performance.",
+      "Low": "Less sleep can effect your study performance visit this site for the understanding of benefit of sleep (https://www.thebridgelab.org/mental-wellness-resources/sleep?gad_source=1&gclid=Cj0KCQjw4cS-BhDGARIsABg4_J0ZE7rUNLqewlkX2qJ1F2BBewT8cjtZOjl_g7vPTMR5m4VNuouXpGUaAmojEALw_wcB)"
+    },
+
+    "Course Completion": {
+      "More": "Great Job! You are good to go.",
+      "Less": "Your course completion is a concern. Try to take more coure as possible to enhance your grade."
+    }
+  }
+}
