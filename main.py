@@ -24,7 +24,7 @@ def all_students_analyze(data, all_std_ana):
 # Function to analyze a student
 def analyze_student(student_analyze):
     while(True):
-        print("\n\tStudent Analysis")
+        student_analyze.welcome_message()
         print("1. Analyze Student")
         print("2. General Analysis")
         print("3. Back to Main Menu")

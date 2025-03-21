@@ -7,8 +7,8 @@ class StudentPerformanceAnalyze:
         # self.__welcome_message()
 
 
-    def __welcome_message(self):
-        print(f"\tWelcome to Student Analysis")
+    def welcome_message(self):
+        print(f"\n\tWelcome to Student Analysis")
         print(f"Our Analysis is base on 500 dataset of student only.")
 
 
