@@ -27,7 +27,8 @@ def analyze_student(student_analyze):
         student_analyze.welcome_message()
         print("1. Analyze Student")
         print("2. General Analysis")
-        print("3. Back to Main Menu")
+        print("3. Overall Student Analysis")
+        print("4. Back to Main Menu")
         while(True):
             try:
                 a = int(input("Choose your option: "))
@@ -41,18 +42,26 @@ def analyze_student(student_analyze):
                     FinalGrade = input("Final Grade(A, B, C, D): ").lower().capitalize()
                     if(FinalGrade in ['A', 'B', 'C', 'D']):
                         break
+                    else:
+                        print("You should enter one of them.")
+
                 while(True):
                     learning_style = input("Enter Learning Style (Visual, Auditory, Reading/Writing, Kinesthetic): ").strip().lower().capitalize()
                     if(learning_style in ['Visual', 'Auditory', 'Reading/writing', 'Kinesthetic']):
                         break
+                    else:
+                        print("You should enter one of them.")
+                        
                 student_analyze.analyData(FinalGrade, learning_style)
             case 2:
                 student_analyze.general_analysis()
-                student_analyze.overall_stu_analysis()
             case 3:
+                print("\nTable of Overall Analysis")
+                student_analyze.overall_stu_analysis()
+            case 4:
                 main()
             case _:
-                break
+                print("Choose a valid option")
 # Main function
 def main():
     while(True):
