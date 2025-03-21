@@ -25,7 +25,7 @@ git clone https://github.com/Nhaaa4/Student_Analyze_OOP_Project.git
 ```bash
 python main.py
 ```
-After run this code, It will show the 3 options to user choose.\
+After run this code, It will show the 3 options to user choose.
 1. Analyze and Visual Dataset
 2. Student Analyze based on Dataset
 3. Give suggestion and motivation
