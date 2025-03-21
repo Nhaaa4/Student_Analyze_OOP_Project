@@ -46,7 +46,7 @@ To contribute:
 
 ## Contact 
 For any question, feel free to reach out:\
-- Chheang Sovanpanha
+- Chheang Sovanpanha\
 :email: panhasovan51@gmail.com\
 :link: [Nhaaa4](https://github.com/Nhaaa4)\
 - Manh Seila
