@@ -73,7 +73,7 @@ def main():
 
         while(True):
             try:
-                op = int(input("Choose your pbtion: "))
+                op = int(input("Choose your option: "))
             except:
                 print('Your input was wrong. Please input number')
             else:
