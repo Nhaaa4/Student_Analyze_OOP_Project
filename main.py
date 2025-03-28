@@ -5,21 +5,67 @@ from src.userinput import U_Input_Output
 
 # Function to analyze all students
 def all_students_analyze(data, all_std_ana):
-
-    print(data.data_sample())
-    print(data.data_info())
-    print(data.data_describe())
-
-    all_std_ana.final_grade_analyze()
-    all_std_ana.study_hour_analyze()
-    all_std_ana.learning_style_analyze()
-    all_std_ana.discussion_analyze()
-    all_std_ana.assignment_rate_analyze()
-    all_std_ana.exam_score_analyze()
-    all_std_ana.attendance_rate_analyze()
-    all_std_ana.stress_report_analyze()
-    all_std_ana.free_time_analyze()
-    all_std_ana.sleep_hours_analyze()
+    while 1:
+        print("\n1. View Dataset information")
+        print("2. Final Grade Analysis")
+        print("3. Study Hour Analysis")
+        print("4. Learning Style Analysis")
+        print("5. Discussion Analysis")
+        print("6. Assignment Rate Analysis")
+        print("7. Exam Score Analysis")
+        print("8. Attendance Rate Analysis")
+        print("9. Stress Report Analysis")
+        print("10. Free Time Analysis")
+        print("11. Sleep Hours Analysis")
+        print("12. Back to Main Menu")
+        while(True):
+            try:
+                a = int(input("Choose your option: "))
+            except:
+                print('Your input was wrong.')
+            else:
+                break
+        match a:
+            case 1:
+                print("\nDataset Information")
+                print(data.data_sample())
+                print(data.data_info())
+                print(data.data_describe())
+            case 2:
+                print("\nFinal Grade Analysis")
+                all_std_ana.final_grade_analyze()
+            case 3:
+                print("\nStudy Hour Analysis")
+                all_std_ana.study_hour_analyze()
+            case 4:
+                print("\nLearning Style Analysis")
+                all_std_ana.learning_style_analyze()
+            case 5:
+                print("\nDiscussion Analysis")
+                all_std_ana.discussion_analyze()
+            case 6:
+                print("\nAssignment Rate Analysis")
+                all_std_ana.assignment_rate_analyze()
+            case 7:
+                print("\nExam Score Analysis")
+                all_std_ana.exam_score_analyze()
+            case 8:
+                print("\nAttendance Rate Analysis")
+                all_std_ana.attendance_rate_analyze()
+            case 9:
+                print("\nStress Report Analysis")
+                all_std_ana.stress_report_analyze()
+            case 10:
+                print("\nFree Time Analysis")
+                all_std_ana.free_time_analyze()
+            case 11:
+                print("\nSleep Hours Analysis")
+                all_std_ana.sleep_hours_analyze()
+            case 12:
+                print("Back to Main Menu")
+                main()
+            case _:
+                print("Choose a valid option")
 
 # Function to analyze a student
 def analyze_student(student_analyze):
